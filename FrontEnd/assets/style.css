@@ -403,15 +403,15 @@ footer nav ul {
 
 .top-bar {
   background: #000000;
-  display: none;
   flex-flow: row nowrap;
   justify-content: center;
   align-items: center;
   text-align: center;
+  width: 100%;
+  height: 60px;
 }
 
 .top-bar i {
-  margin-right: 12px;
   color: white;
   font-size: 15.5px;
 }
@@ -426,9 +426,6 @@ footer nav ul {
 }
 
 .btn-modale {
-  padding: 11px 23px;
-  background: #ffffff;
-  border-radius: 60px;
   font-family: 'Work Sans';
   font-style: normal;
   font-weight: 500;
@@ -437,6 +434,10 @@ footer nav ul {
   color: #000000;
   margin: 10px 21px;
   cursor: pointer;
+}
+
+.btn-modale p {
+  color: white;
 }
 
 /* ------------------------------------------ */
