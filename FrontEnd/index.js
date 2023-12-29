@@ -258,7 +258,7 @@ if (localStorage.getItem('token')) {
   let btnReturn = document.createElement('i');
 
   // ---------------------------------------------------------------------------------
-  // B. Functio Affichage des works sous format popUp
+  // B. Function Affichage des works sous format popUp
   async function popUpWorks() {
     // a) on vien stocker le résultat de getWorks dans une variable pour l'utiliser
     let work = await getWorks();
