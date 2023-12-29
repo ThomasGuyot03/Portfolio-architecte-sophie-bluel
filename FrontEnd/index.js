@@ -571,7 +571,8 @@ if (localStorage.getItem('token')) {
       }
     }
 
-    btnValid.addEventListener('click', () => {
+    btnValid.addEventListener('click', async function(event) {
+      event.preventDefault(); // Empêche le rechargement de la page
       postWork(bearerToken);
     });
   }
